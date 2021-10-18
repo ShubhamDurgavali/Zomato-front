@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #ebf2ff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 20%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.navbar__brand {
+  width: 100px;
+}
+
+.navbar__logo {
+  width: 100%;
+}
+
+.button__primary {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.button__primary :hover {
+  border: 2px solid #ff6767;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero__image__container {
+  width: 100%;
+}
+
+.hero__image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+}
+
+.hero__text {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #1d3557;
+}
+
+.restaurent__text {
+  color: #1d3557;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.restaurent__text p {
+  margin: 7% 0;
+  position: relative;
+}
+
+.explore__menu__container {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.food__card__description {
+  padding: 15px;
+}
+
+.food__card {
+  background-color: #f9f9f9;
+}
+
+.food__card__image__container {
+  width: 100%;
+}
+
+.food__image {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+
+.food__list__view__more {
+  margin: 32px 0;
+  transition: 0.3s;
+  color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  font-weight: 900;
+}
+
+.restaurent__list__container {
+  margin-top: 48px;
+}
+
+.restaurent__list__text {
+  margin: 16px;
+}
+
+.text__xl {
+  font-size: 24px;
+  line-height: 32px;
+  color: #1d3557;
+  font-weight: 900;
+}
+
+.restaurent__list__row__1 {
+  display: flex;
+  align-items: baseline;
+}
+
+.restaurent__list__row__2 {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+
+.restaurent1,
+.restaurent3 {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 150px;
+  height: 80px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.restaurent2,
+.restaurent4 {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 200px;
+  height: 100px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.explore__menu__text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: #1d3557;
+}
+
+.email__subscribe__container {
+  margin: 100px 0;
+}
+
+.email__subscribe__input__field {
+  display: flex;
+  align-items: center;
+}
+
+.email__container__text {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+  color: #1d3557;
+}
+
+.email__container__input__text {
+  display: flex;
+  align-items: center;
+}
+
+.email__input {
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  font-weight: 700;
+  color: #1d3557;
+}
+
+.quote__container {
+  position: relative;
+  margin: 4rem 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  border-radius: 13px;
+  background: url(https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80)
+    center center / cover no-repeat;
+}
+
+.quote__image__overlay {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  border-radius: 13px;
+  background-color: #0a4065;
+  opacity: 49%;
+}
+
+.quote__image__text {
+  color: #fff;
+  z-index: 3;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+
+footer > img {
+  width: 300px;
+  filter: brightness(0) invert(1);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer > ul {
+  margin-top: -8px;
+  color: white;
+  text-align: center;
+}
+
+footer > ul > li {
+  margin: 5px 0;
+}
+
+#copyright {
+  color: #fff;
+  background-image: linear-gradient(to right , #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  text-align: center;
+  font-size: 12px;
+}
+
+/* MEDIA QUERIES */
+
+/* For Ipad */
+
+@media (min-width: 768px) {
+  .restaurent__text {
+    color: #1d3557;
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .explore__menu__lists {
+    margin-top: 45px;
+    display: flex;
+    gap: 15px;
+    padding: 0 30px;
+  }
+
+  .explore__menu__container {
+    position: relative;
+  }
+
+  .explore__menu__gradient__bg {
+    position: absolute;
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    transform: skewY(-6deg);
+  }
+
+  #pizza__card {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+
+  .hero__container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  footer ul{
+      text-align: left;
+  }
+
+  #copyright {
+    font-size: 20px;
+  }
+
+  .restaurent__list__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text__xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .email__subscribe__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email__container__text {
+    margin-left: -200px;
+    font-size: 32px;
+    line-height: 2.25rem;
+  }
+
+  .email__input {
+    width: 20rem;
+  }
+
+  .quote__container {
+    height: 300px;
+    width: 100%;
+  }
+
+  .quote__image__overlay {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    border-radius: 13px;
+    background-color: #0a4065;
+    opacity: 49%;
+  }
+
+  .quote__image__text {
+    color: #fff;
+    z-index: 3;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+
+/* For Desktop */
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 70%;
+  }
+
+  .explore__menu__lists {
+    gap: 25px;
+  }
+
+  .navbar__brand {
+    width: 150px;
+  }
+
+  .button__primary {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .hero__description {
+    width: 100%;
+  }
+
+  .hero__text {
+    font-size: 50px;
+  }
+
+  .explore__menu__text {
+    font-size: 48px;
+  }
+
+  #copyright {
+    font-size: 16px;
+  }
+  
+  .email__container__text{
+    margin-right: 60px;
+  }
+
+  .restaurent__list__container {
+    margin: 100px 0;
+  }
+
+  .text__xl {
+    width: 100%;
+    font-weight: 900;
+    font-size: 43px;
+  }
+
+  .restaurent__list__image__container {
+    margin: 25px 2px;
+  }
+
+  .restaurent__list__row__1 {
+    justify-content: center;
+  }
+
+  .restaurent1 {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  .restaurent2 {
+    width: 300px;
+    height: 260px;
+    border-radius: 10px;
+  }
+
+  .restaurent__list__row__2 {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 5px 2px 0;
+  }
+
+  .restaurent4 {
+    width: 300px;
+    height: 260px;
+    border-radius: 10px;
+  }
+
+  .restaurent3 {
+    width: 252px;
+    height: 180px;
+    border-radius: 10px;
+  }
+}
